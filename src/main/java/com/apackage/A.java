@@ -1,23 +1,23 @@
 package com.apackage;
 
-import com.bpackage.B;
-import com.bpackage.BReq;
-import com.bpackage.BResp;
+//import com.bpackage.B;
+//import com.bpackage.BReq;
+//import com.bpackage.BResp;
 
 public class A {
 
-	 B b;
+	 /*B b;
 	 public A(B b){
 		 this.b=b;
 		 System.out.println("enter into constructor");
-	 }
+	 }*/
 	 
 	 /*Here instead of constructor we can write like this 
 	  * B b=new B();
 	  * but Mockito can't mock the new operators,
 	  * means Mocking of B class is not possible.This is possible by powermockito*/
 	 
-	 public AResp m1(AReq areq){
+	 /*public AResp m1(AReq areq){
 		 System.out.println("enter into m1()");
 		 
 		 //preparing breq object
@@ -34,6 +34,10 @@ public class A {
 		 AResp aresp=new AResp();
 		 aresp.setStatus(bresp.getStatusCode());
 		 return aresp;
-	 }
+	 }*/
+	public static void main(String[] args) {
+		int a=0;
+		System.out.println("sample test........");
+	}
 }
  
