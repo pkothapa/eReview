@@ -8,9 +8,9 @@ import org.junit.Test;
 import org.mockito.Matchers;
 import org.mockito.Mockito;
 
-import com.bpackage.B;
-import com.bpackage.BReq;
-import com.bpackage.BResp;
+//import com.bpackage.B;
+//import com.bpackage.BReq;
+//import com.bpackage.BResp;
 
 public class ATest {
 
