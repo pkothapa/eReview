@@ -4,11 +4,11 @@
   <artifactId>A</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
-  	<dependency>
+  	<!--<dependency>
   		<groupId>com.siva</groupId>
   		<artifactId>B</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	</dependency>-->
   	<dependency>
   		<groupId>junit</groupId>
   		<artifactId>junit</artifactId>
